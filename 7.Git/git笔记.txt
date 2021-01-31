@@ -1,0 +1,89 @@
+﻿//  ┏┓　　　┏┓
+//┏┛┻━━━┛┻┓
+//┃　　　　　　　┃
+//┃　　　━　　　┃
+//┃　┳┛　┗┳　┃
+//┃　　　　　　　┃
+//┃　　　┻　　　┃
+//┃　　　　　　　┃
+//┗━┓　　　┏━┛
+//   ┃　　　┃   神兽保佑
+//   ┃　　　┃   代码无BUG！
+//   ┃　　　┗━━━┓
+//   ┃　　　　　　　┣┓
+//   ┃　　　　　　　┏┛
+//   ┗┓┓┏━┳┓┏┛
+//     ┃┫┫　┃┫┫
+//     ┗┻┛　┗┻┛
+
+git init 初始化git仓库
+git config --global user.name "Your name" 设置全局用户名
+git config --global user.email "example@email.com" 设置全局用户邮箱地址
+
+git add <filename> 添加文件给git管理
+git commit -m "message" 提交并填写备注
+
+git status 查看仓库状态
+git diff 对比修改，查看具体修改
+git log 查看历史版本信息
+
+git reset --hard HEAD^ 回退到上一个版本
+git reset --hard 1094a(版本号) 回退到指定版本
+git reflog 记录了每一次命令
+
+git checkout -- <filename> 丢弃工作区的修改
+PS:
+场景1：当你改乱了工作区某个文件的内容，想直接丢弃工作区的修改时，用命令git checkout -- file。
+场景2：当你不但改乱了工作区某个文件的内容，还添加到了暂存区时，想丢弃修改，分两步，第一步用命令git reset HEAD <file>，就回到了场景1，第二步按场景1操作。
+场景3：已经提交了不合适的修改到版本库时，想要撤销本次提交，参考版本回退一节，不过前提是没有推送到远程库
+
+git rm <filename> 用于删除一个文件
+git checkout -- <filename> 删错了，因为版本库里还有呢，把误删的文件恢复到最新版本
+
+git remote add origin git@github.com:michaelliao/learngit.git 将本地仓库和GitHub仓库关联
+git push (-u) origin master 将本地库的所有内容推送到远程仓库
+PS:由于远程库是空的，我们第一次推送master分支时，加上了-u参数，Git不但会把本地的master分支内容推送的远程新的master分支，还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令。
+
+git clone git@github.com:michaelliao/gitskills.git 克隆项目
+
+Git鼓励大量使用分支：
+查看分支：git branch
+创建分支：git branch <name>
+切换分支：git checkout <name>
+创建+切换分支：git checkout -b <name>
+合并某分支到当前分支：git merge <name>
+删除分支：git branch -d <name>
+
+git merge --no-ff -m "merge with no-ff" dev 普通合并分支
+准备合并dev分支，请注意--no-ff参数，表示禁用Fast forward
+
+开发一个新feature，最好新建一个分支；
+如果要丢弃一个没有被合并过的分支，可以通过git branch -D <name>强行删除。
+
+查看远程库信息，使用git remote -v；
+本地新建的分支如果不推送到远程，对其他人就是不可见的；
+从本地推送分支，使用git push origin branch-name，如果推送失败，先用git pull抓取远程的新提交；
+在本地创建和远程分支对应的分支，使用git checkout -b branch-name origin/branch-name，本地和远程分支的名称最好一致；
+建立本地分支和远程分支的关联，使用git branch --set-upstream branch-name origin/branch-name；
+从远程抓取分支，使用git pull，如果有冲突，要先处理冲突。
+
+多人协作的工作模式通常是这样：
+1.首先，可以试图用git push origin <branch-name>推送自己的修改；
+2.如果推送失败，则因为远程分支比你的本地更新，需要先用git pull试图合并；
+3.如果合并有冲突，则解决冲突，并在本地提交；
+4.没有冲突或者解决掉冲突后，再用git push origin <branch-name>推送就能成功！
+如果git pull提示no tracking information，则说明本地分支和远程分支的链接关系没有创建，用命令git branch --set-upstream-to <branch-name> origin/<branch-name>。
+这就是多人协作的工作模式，一旦熟悉了，就非常简单。
+
+git rebase 操作可以把本地未push的分叉提交历史整理成直线;
+rebase的目的是使得我们在查看历史提交的变化时更容易，因为分叉的提交需要三方对比
+
+git tag <tagname>用于新建一个标签，默认为HEAD，也可以指定一个commit id；
+git tag -a <tagname> -m "blablabla..."可以指定标签信息；
+git tag可以查看所有标签。
+git show <tagname> 查看标签信息
+
+git push origin <tagname> 可以推送一个本地标签；
+git push origin --tags 可以推送全部未推送过的本地标签；
+git tag -d <tagname> 可以删除一个本地标签；
+git push origin :refs/tags/<tagname> 可以删除一个远程标签
