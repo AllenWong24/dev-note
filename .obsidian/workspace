@@ -1,0 +1,106 @@
+{
+  "main": {
+    "id": "cb7541ecc5bf3d0c",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b75cfb7c50c62d3",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "README.md",
+            "mode": "source"
+          }
+        },
+        "group": "9e7b4e7ed2baf1f4"
+      },
+      {
+        "id": "2c1b51559854486b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "README.md",
+            "mode": "preview"
+          }
+        },
+        "group": "9e7b4e7ed2baf1f4"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "09c12faf5c336228",
+    "type": "split",
+    "children": [
+      {
+        "id": "336bb67f3f2df953",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7b3e3cefeacf1739",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "6545b14c600f4f71",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "cbc22c27f3c2ea1a",
+    "type": "split",
+    "children": [
+      {
+        "id": "05dad493cfab9026",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bb795c15a87c1ee9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "lastOpenFiles": [
+    "README.md",
+    "2.JS/前端知识架构2(Winter).jpg",
+    "2.JS/前端知识架构(Winter).jpg",
+    "10.Docker/CI-CD是什么.png"
+  ]
+}
