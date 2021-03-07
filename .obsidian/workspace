@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "2.JS/读后感：JavaScript DOM编程艺术(第2版).md",
             "mode": "source"
           }
         },
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "2.JS/读后感：JavaScript DOM编程艺术(第2版).md",
             "mode": "preview"
           }
         },
@@ -66,7 +66,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 360
   },
   "right": {
     "id": "cbc22c27f3c2ea1a",
@@ -82,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "2.JS/读后感：JavaScript DOM编程艺术(第2版).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,9 +98,15 @@
     "width": 300
   },
   "lastOpenFiles": [
-    "README.md",
-    "2.JS/前端知识架构2(Winter).jpg",
-    "2.JS/前端知识架构(Winter).jpg",
-    "10.Docker/CI-CD是什么.png"
+    "2.JS/读后感：JavaScript DOM编程艺术(第2版).md",
+    "0.Peter Tingle/编程基础.md.md",
+    "00.Awesome Projects/前端.md.md",
+    "2.JS/读后感：JavaScript DOM编程艺术(第2版).md.md",
+    "3.CSS/选择器.md",
+    "0.Peter Tingle/编程基础.md",
+    "00.Awesome Projects/Untitled.md",
+    "00.Awesome Projects/Untitled 1.md",
+    "2.JS/Untitled.md",
+    "0.灵感/编程基础.md"
   ]
 }
