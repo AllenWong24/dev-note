@@ -10,21 +10,23 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "000.ARTS打卡计划/Tip/2021-3-13.md",
+            "file": "README.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "be35a5441d0c793a"
       },
       {
-        "id": "c58cd9aea068ff3e",
+        "id": "07227c53a22be575",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "000.ARTS打卡计划/Tip/2021-3-13.md",
-            "mode": "source"
+            "file": "README.md",
+            "mode": "preview"
           }
-        }
+        },
+        "group": "be35a5441d0c793a"
       }
     ],
     "direction": "vertical"
@@ -80,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000.ARTS打卡计划/Tip/2021-3-13.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,18 +95,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "lastOpenFiles": [
-    "000.ARTS打卡计划/Tip/2021-3-13.md",
-    "14.C++/(7)访问控制，public、protected、private.md",
+    "README.md",
+    "6.C++/(10)静态属性和静态方法.md",
     "14.C++/Untitled.md",
+    "14.C++/(7)访问控制，public、protected、private.md",
+    "6.Arithmetic/时间复杂度.md",
+    "6.Arithmetic/Untitled.md",
+    "6.Arithmetic/1数据结构与算法.jpg",
+    "000.ARTS打卡计划/Tip/2021-3-13.md",
     "14.C++/(3)类、对象.md",
-    "14.C++/(2)联合、枚举和类型别名.md",
-    "14.C++/(1)传值、传址和传引用.md",
-    "000.ARTS打卡计划/Tip/Untitled.md",
-    "0.Peter Tingle/编程基础.md",
-    "14.C++/小甲鱼C++课后思考题/题目一.md",
-    "11.React/学习项目.md"
+    "14.C++/(2)联合、枚举和类型别名.md"
   ]
 }
