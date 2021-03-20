@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "6.C++/(12)抽象方法.md",
+            "file": "6.C++/(16) assert函数和异常.md",
             "mode": "source"
           }
         },
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "6.C++/(12)抽象方法.md",
+            "file": "6.C++/(16) assert函数和异常.md",
             "mode": "preview"
           }
         },
@@ -82,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6.C++/(12)抽象方法.md",
+                "file": "6.C++/(16) assert函数和异常.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,14 +100,14 @@
   },
   "lastOpenFiles": [
     "6.C++/Untitled.md",
-    "4.前端/Webpack/Untitled.md",
-    "4.前端/Webpack/2. webpack核心概念之entry.md",
-    "4.前端/Webpack/1. 初识webpack.md",
-    "4.前端/CSS/图解CSS3-读后感/Untitled.md",
-    "4.前端/Webpack/Readme.md",
-    "0.ARTS打卡计划/Share/2021年3月第2周.md",
-    "1.Awesome Projects/前端.md",
-    "4.前端/Readme.md",
-    "2.Peter Tingle/编程基础.md"
+    "6.C++/(15) 虚继承.md",
+    "8.编程理论/Untitled.md",
+    "6.C++/小甲鱼C++课后思考题/题目二.md",
+    "6.C++/小甲鱼C++课后思考题/题目1.md",
+    "6.C++/小甲鱼C++课后思考题/题目一.md",
+    "6.C++/小甲鱼C++课后思考题/Untitled.md",
+    "6.C++/(12)抽象方法.md",
+    "4.前端/Javascript/JavaScript DOM编程艺术(第2版) - 读后感/Readme.md",
+    "4.前端/Webpack/Untitled.md"
   ]
 }
