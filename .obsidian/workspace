@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "6.C++/(21) 链接和作用域.md",
+            "file": "4.前端/Vue/2. MPA构建.md",
             "mode": "source"
           }
         },
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "6.C++/(21) 链接和作用域.md",
+            "file": "4.前端/Vue/2. MPA构建.md",
             "mode": "preview"
           }
         },
@@ -82,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6.C++/(21) 链接和作用域.md",
+                "file": "4.前端/Vue/2. MPA构建.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,6 +99,8 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "4.前端/Vue/2. MPA构建.md",
+    "4.前端/Vue/Untitled.md",
     "6.C++/Untitled.md",
     "README.md",
     "4.前端/React/学习项目.md",
@@ -106,8 +108,6 @@
     "6.C++/(18) 副本构造器.md",
     "6.C++/(17) 动态内存管理和new.md",
     "6.C++/(15) 虚继承.md",
-    "8.编程理论/Untitled.md",
-    "6.C++/小甲鱼C++课后思考题/题目二.md",
-    "6.C++/小甲鱼C++课后思考题/题目1.md"
+    "8.编程理论/Untitled.md"
   ]
 }
