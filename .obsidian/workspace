@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "4.前端/Vue/2. MPA构建.md",
+            "file": "4.前端/Webpack/Readme.md",
             "mode": "source"
           }
         },
@@ -22,8 +22,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "4.前端/Vue/2. MPA构建.md",
-            "mode": "preview"
+            "file": "4.前端/Webpack/Readme.md",
+            "mode": "source"
           }
         },
         "group": "be35a5441d0c793a"
@@ -66,7 +66,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 360
+    "width": 374
   },
   "right": {
     "id": "cbc22c27f3c2ea1a",
@@ -82,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.前端/Vue/2. MPA构建.md",
+                "file": "4.前端/Webpack/Readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,15 +99,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "4.前端/Webpack/Readme.md",
+    "4.前端/Vue/Readme.md",
     "4.前端/Vue/2. MPA构建.md",
-    "4.前端/Vue/Untitled.md",
-    "6.C++/Untitled.md",
-    "README.md",
     "4.前端/React/学习项目.md",
-    "4.前端/Webpack/7. 解析ES6和React JSX.md",
-    "6.C++/(18) 副本构造器.md",
-    "6.C++/(17) 动态内存管理和new.md",
-    "6.C++/(15) 虚继承.md",
-    "8.编程理论/Untitled.md"
+    "4.前端/Javascript/Readme.md",
+    "4.前端/Javascript/前端知识架构2(Winter).jpg",
+    "4.前端/Javascript/前端知识架构(Winter).jpg",
+    "3.算法/数据结构与算法.jpg",
+    "4.前端/Javascript/JavaScript DOM编程艺术(第2版) - 读后感/Readme.md",
+    "4.前端/Webpack/7. 解析ES6和React JSX.md"
   ]
 }
